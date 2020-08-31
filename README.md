@@ -1,2 +1,2 @@
-# New-York-TImes
+# New-York-Times
 Practice for floats, flexbox and grid
