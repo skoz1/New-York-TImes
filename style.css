@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Domine:wght@400;700&family=EB+Garamond:wght@800&family=Lato&family=Libre+Franklin:wght@500;700&family=Noto+Sans+JP:wght@700;900&family=UnifrakturCook:wght@700&display=swap');
+body {
+    background-color: rgb(242, 242, 242);
+    font-family: 'Source Sans pro';
+}
+
+
+/*–––––––––––––––––NAV-1–––––––––––––––––*/
+
+nav {
+    display: flex;
+    justify-content: space-between;
+}
