@@ -1,13 +1,38 @@
-@import url('https://fonts.googleapis.com/css2?family=Domine:wght@400;700&family=EB+Garamond:wght@800&family=Lato&family=Libre+Franklin:wght@500;700&family=Noto+Sans+JP:wght@700;900&family=UnifrakturCook:wght@700&display=swap');
-body {
-    background-color: rgb(242, 242, 242);
-    font-family: 'Source Sans pro';
-}
-
-
-/*–––––––––––––––––NAV-1–––––––––––––––––*/
-
-nav {
-    display: flex;
-    justify-content: space-between;
-}
+                            @import url('https://fonts.googleapis.com/css2?family=Domine:wght@400;700&family=EB+Garamond:wght@800&family=Lato&family=Libre+Franklin:wght@500;700&family=Noto+Sans+JP:wght@700;900&family=UnifrakturCook:wght@700&display=swap');
+                            /*–––––––––––––––––NAV-1–––––––––––––––––*/
+                            
+                            nav {
+                                display: flex;
+                                justify-content: space-between;
+                                align-items: flex-start;
+                                background-color: white;
+                                border-bottom: 2px solid rgb(235, 232, 232);
+                                padding: 2px;
+                            }
+                            
+                            nav:first-child {
+                                font-size: 14px;
+                                font-weight: 700;
+                                font-family: 'Libre Franklin', sans-serif;
+                            }
+                            
+                            button {
+                                cursor: pointer;
+                            }
+                            
+                            .nav-btn-left {
+                                border: none;
+                                font-size: 20px;
+                                padding: 0 10px;
+                                background-color: white;
+                            }
+                            
+                            nav div:nth-child(2) {
+                                font-family: 'UnifrakturCook', cursive;
+                                font-size: 25px;
+                            }
+                            
+                            a[type] {
+                                color: black;
+                                text-decoration: none;
+                            }
