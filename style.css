@@ -1,16 +1,23 @@
                             @import url('https://fonts.googleapis.com/css2?family=Domine:wght@400;700&family=EB+Garamond:wght@800&family=Lato&family=Libre+Franklin:wght@500;700&family=Noto+Sans+JP:wght@700;900&family=UnifrakturCook:wght@700&display=swap');
+                            * {
+                                padding: 0;
+                                margin: 0;
+                                box-sizing: border-box;
+                            }
                             /*–––––––––––––––––NAV-1–––––––––––––––––*/
                             
                             nav {
+                                position: fixed;
+                                width: 100%;
                                 display: flex;
                                 justify-content: space-between;
                                 align-items: flex-start;
                                 background-color: white;
                                 border-bottom: 2px solid rgb(235, 232, 232);
-                                padding: 2px;
+                                padding: 5px 20px 1px 10px;
                             }
                             
-                            nav:first-child {
+                            nav div:first-child {
                                 font-size: 14px;
                                 font-weight: 700;
                                 font-family: 'Libre Franklin', sans-serif;
@@ -35,4 +42,30 @@
                             a[type] {
                                 color: black;
                                 text-decoration: none;
+                            }
+                            
+                            .nav-btn-right {
+                                padding: 7px 12px;
+                                font-family: 'Noto Sans Jp';
+                                text-transform: uppercase;
+                                font-size: 11px;
+                                color: white;
+                                background-color: rgb(61, 98, 126);
+                                border-radius: 3px;
+                                border: 1px solid black;
+                            }
+                            /*–––––––––––––––––BODY–––––––––––––––––*/
+                            
+                            h1 {
+                                font-size: 40px;
+                                font-weight: 00;
+                                font-style: italic;
+                                padding-top: 100px;
+                                font-family: 'EB Garamond';
+                            }
+                            
+                            body section:first-child {
+                                padding-top: 200px;
+                                display: grid;
+                                grid-template-rows: 20rem;
                             }
