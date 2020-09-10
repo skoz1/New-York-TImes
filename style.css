@@ -250,13 +250,21 @@
                                     /*–––––––––––––––––FOOTER–––––––––––––––––*/
                                     
                                     footer {
-                                        display: flex;
+                                        display: grid;
+                                        grid-template-rows: 5% 1fr 5%;
+                                        grid-template-columns: auto;
+                                        margin: 0 30px;
                                     }
                                     
                                     .flex-wrapper {
                                         display: flex;
                                         justify-content: space-between;
+                                        margin: 0 30px;
+                                        padding: 10px 0;
                                         border-top: 4px double rgb(209, 208, 208);
                                     }
                                     
-                                    .wrapper-row {}
+                                    .bottom-tab {
+                                        width: 100%;
+                                        display: flex;
+                                    }
